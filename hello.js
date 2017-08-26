@@ -1,5 +1,5 @@
 function hello(name) {
-  return `hello ${name}`
+  return `Hello ${name}`
 }
 
-console.log(hello('Nattanich'))
+module.exports = hello
