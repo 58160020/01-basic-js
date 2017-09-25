@@ -2,11 +2,11 @@ const hello = require('./hello')
 
 test('hello', () => {
   //Arrange
-  let name = 'Mook'
+  let name = 'Nattanich'
 
   //Act
   let result = hello(name)
 
   //Assert
-  expect(result).toBe('Hello Mook')
+  expect(result).toBe('Hello Nattanich')
 })
